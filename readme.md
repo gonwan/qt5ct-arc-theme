@@ -22,10 +22,10 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 
 ### Alternatives
 
-|         | has theme? | has style? | QT_QPA_PLATFORMTHEME | QT_STYLE_OVERRIDE     | Description                                                  |
-| ------- | ---------- | ---------- | -------------------- | --------------------- | ------------------------------------------------------------ |
-| Gtk2    | Yes        | Yes        | gtk2                 | gtk2 or empty         | Good for widgets, indicators in radio button and checkbox can be styled, follows current Gtk theme. But It has HiDPI issues, and not certianly not maintained. |
-| Gtk3    | Yes        | No         | gtk3 or empty        | style values in qt5ct | No style plugin. Fusion is used by default, which is not consistent with other themed Gtk applications. |
-| qt5ct   | Yes        | Yes        | qt5ct                | style values in qt5ct | No style plugin, Fusion is used by default, which is not consistent with other themed Gtk applications. Color scheme and font can be further customized. Button indicators are not styled. |
-| Kvantum | Yes        | Yes        | qt5ct                | kvantum               | Use Kvantum Manager to further customize the theme. Button indicators are styled. KvArc theme is provided, but is still somehow different in visual. Kvantum also installs several KDE component, which is odd. |
+|         | has theme? | has style? | QT_QPA_<br/>PLATFORMTHEME | QT_STYLE_<br/>OVERRIDE | Description                                                  |
+| ------- | ---------- | ---------- | ------------------------- | ---------------------- | ------------------------------------------------------------ |
+| Gtk2    | Yes        | Yes        | gtk2                      | gtk2 or empty          | Good for widgets, indicators in radio button and checkbox can be styled, follows current Gtk theme. But It has HiDPI issues, and not certianly not maintained. |
+| Gtk3    | Yes        | No         | gtk3 or empty             | style values in qt5ct  | No style plugin. Fusion is used by default, which is not consistent with other themed Gtk applications. |
+| qt5ct   | Yes        | Yes        | qt5ct                     | style values in qt5ct  | No style plugin, Fusion is used by default, which is not consistent with other themed Gtk applications. Color scheme and font can be further customized. Button indicators are not styled. |
+| Kvantum | Yes        | Yes        | qt5ct                     | kvantum                | Use Kvantum Manager to further customize the theme. Button indicators are styled. KvArc theme is provided, but is still somehow different in visual. Kvantum also installs several KDE component, which is odd. |
 
