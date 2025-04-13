@@ -16,9 +16,9 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 #export QT_DEBUG_PLUGINS=1
 ```
 
-![vlc_default](doc/vlc_default.png)
-
-![vlc_themed](doc/vlc_themed.png)
+| default                                | themed                               |
+| -------------------------------------- | ------------------------------------ |
+| ![vlc_default](images/vlc_default.png) | ![vlc_themed](images/vlc_themed.png) |
 
 ### Alternatives
 
